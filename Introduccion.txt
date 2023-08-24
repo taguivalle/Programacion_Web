@@ -1,0 +1,98 @@
+Inicialmente, en este pequeño curso vamos realizar un proyecto de una conferencia de programadores en el cual 
+vamos a tener ponentes, van a poder dar conferencias y workshops; y también los asitentes se pueden registrar 
+mediante un pago por paypal.
+
+Durante el transcurso del diseño se presentaran unas pautas a tener en cuenta por los aprendices; es normal que 
+nuestro poryecto tenga un header, en donde ese podrá crear una cuenta o un registro de usuario; o si ya se tiene 
+una cuenta, iniciar sesión desde el respectivo acceso para esta función.
+
+también, se contará con una barra de navegación en donde se puede presionar por eventos, te va resaltando la 
+página en la que te encuentras mediante un slider de eventos. Te mostrará un lider de eventos que tendrá la 
+conferencia. se mostrará todos esos registros que vienen de la base de datos y lo que hace un poco más complejo 
+esta parte; es que tenemos dos tipos de eventos, tendremos conferencias y tenemos workshops y también tendremos 
+dos días viernes y sábado. Entonces, estaremos viendo un poco más adelante el demo del admin para mostrar como 
+funciona esa parte para que no se repitan las horas.
+
+De otra parte, se podrá elegir hasta cinco conferencias una vez que el usuario haya hecho su pago. de igual 
+manera estaremos viendo la parte de la disponbilidad, le vamos fijar un número a cada uno de estos eventos, 
+digamos 30 y una vez que esté en ceros ya nose puede registrar más usuarios para mostrale como sería 
+esta situación.
+
+También, estaríamos viendo como crear animaciones, como integrar una librería de animaciones que cuando demos 
+scroll se realiza estas accioens que por cierto se ven muy bién. de otra parte se tienen los speakers, estos 
+son personas que van a impartir tanto conferencias como workshops. Y al hacer un poco de scroll se pueden ver 
+animaciones y se puede ver que tenemos, por ejemplo, diferentes backgrounds en cada uno de ellos.
+
+Así mismo, se mostrará el nombre del ponente, de dónde es; con sus respectivos enlaces hacia sus redes sociales 
+y las habilidades que tiene cada uno de ellos. se realizarán o se insertarán más ponentes. es de recordar que 
+todos estos vienen desde la base de datos. así mismo se tiene un mapa en dónde se va a llevar a cabo este 
+evento en el centro de convenciones de los Ángeles.
+
+Así mismo, tenemos la opción de comprar un pase; esto hace que al momento de realizar un registro, se tiene que
+confirmar la cuenta y entonces se puede elegir un plan. El gratis, virtual o presencial. Los dos últimos serán
+de pago y también al elegir el presencial se tiene la opción de apartar los eventos que sean de interés así como 
+un regalo.
+
+Otro aspecto a tener en cuenta, son las redes sociales, como por ejemplo: YuoTube, facebook, twitter u otra 
+cualquier red social. Aclarando que estos logos se traen de Awesome y se notará que se puede generar este tipo
+de inputs con puro código de HTML, CSS y apoyándonos en foros. El resto es lo normal; se va a encontrar un 
+formulario estructurado; de esta forma en el cual puedes registrar a cada uno de los ponentes y observar que
+se tiene la opción de eliminar, editar y también añadirlo.
+
+También, se tiene la parte de paginación, se puede colocar cinco por ejemplo y se notará que realiza el cálculo 
+de cuántas páginas tiene que mostrar y nos aparece la opción de siguiente nota cómo me encuentro en la página 
+uno y le doy siguiente y de inmediato genera el enlace anterior; se mostrará para seleccionar dos, tres, cuatro
+o las páginas que se encuentren relacionadas de acuerdo al registro de participantes; estilo paginación Google.
+
+ahora que, pasa sí se coloca la página 200? Bueno, te va a redireccionar a la página uno porqué estamos 
+detectando cuántas páginas disponbiles se encuentran y además esa paginación va a ser reutilizable. Sí el 
+usuario se desplaza hasta eventos también aparecerá la paginación.
+
+A consideración de este autor la parte más importante junto a lso pagos de este evento puedes ver que actualmente
+se tienen eventos, workshops, otros conferencias, algunos son el viernes, otros son el sábado; sí al presionar
+añadir evento y suponiendo que vamos a crear un evento nuevo, digamos de "PHP-8, qué es lo nuevo?" Se tiene la 
+opción de colocar una descripción, decirle al usuario qué es lo que van a aprender y después viene categoría de
+nuevo. Hay workshops y conferencias.
+
+como ejemplo, se puede seleccionar conferencias; Notése como las horas están deshabilitadas porque requerimos la
+categoría del evento y el día. De esta forma se observa qué horas se encuentran disponbiles. Se puede seleccionar 
+sábado por ejemplo y se puede notar que está deshabilitado porque esa hora ya está tomada.
+
+Ahora, sí se abre eventos, conferencias en sábado, puedes ver que aquí hay una conferencia, y la del sábado ya
+está tomada. Por tal motivo no va a dejar deleccionar esa hora para ese día. De esta forma se podrá evitar 
+registros duplicados. Permitiendo con esto para que sea muy útil para todo tipo de cosas. POr ejemplo: sí se 
+quiere crear un tipo de sistema para un doctor para sus citas médicas, sí e quiere elaborar el calendario de 
+vaciones para la empresa donde se labora en la intranet; Es por esto y muchas otras cualidades que este código
+va a servir y por consiguiente implementar en diferentes lugares o situaciones.
+
+Es muy común ver hoy en día este tipo de proyectos, incluso sí se quiere crear un clon de Airbn va a ser muy útil
+este tipo de código. Obsérvese que la parte de ponentes como los eventos y sus ponentes se van asociando al slider
+y se van a ir mapeando con su categoría, con su fecha y se van a ordenar por su hora. En cuanto a los planes se 
+debe elegir una inscripción gratis y se genera un boleto virtual y ser recibe una confirmación que ya se encuentra 
+inscrito de webcam; y los dos otros planes webcam debes de pagar con la opción de paypal o tarjeta débito o crédito.
+
+Se va aa tener un conocimiento acerca de los pagos en línea, sobre las diferentes transacciones en las diferentes
+plataformas que existen. Se va permitir realizar transacciones por medio de la plataforma paypal con todos sus
+componentes de registro a la misma o sí ya se encuentra registrado pués se continua con el respectivo pago. además
+se podrá seleccionar un regalo, en dónde se puede seleccionar un paquete de stickers o alguna camiseta del evento.
+
+También, va a tener validaciones al presionar registrasrse en dónde aparecerá una adevertencia para tal efecto; 
+nótese nuevamente que, se tiene la cantidad de lugares que existen disponbiles; y conforme los usuarios vayan 
+seleccionando los eventos, vamos a ir quitándole estos lugares disponbiles. Es lógico que después del registro
+éxitoso se genera un boleto virtual con el nombre del conferencista y este ticket es adaptable a la pantalla o sea
+responsive. Además se tiene la opción de generar un código que proviene de la base da datos.
+
+Entonces, en registros se puede ver que aparece ese token que es le que genera el código. por consiguiente en la 
+entrada se puede hacer una búsqueda por ese registro y asegurarnos de la persona y algo importante es que ese 
+dinero ingresa a la cuenta de paypal; dee sto se puede constatar en la parte superior , viene en movimientos todas
+las transacciones; como las comisiones que cobra PayPal.
+
+please, help PlayRobert.
+
+
+
+
+
+
+
+
