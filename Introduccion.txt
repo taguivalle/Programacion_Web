@@ -1,5 +1,5 @@
 Inicialmente, en este pequeño curso vamos realizar un proyecto de una conferencia de programadores en el cual 
-vamos a tener ponentes, van a poder dar conferencias y workshops; y también los asitentes se pueden registrar 
+vamos a tener ponentes, van a poder dar conferencias y workshops y también los asitentes se pueden registrar 
 mediante un pago por paypal.
 
 Durante el transcurso del diseño se presentaran unas pautas a tener en cuenta por los aprendices; es normal que 

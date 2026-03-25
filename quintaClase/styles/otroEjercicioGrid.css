@@ -1,0 +1,17 @@
+.contenedor-otro-ejercicio {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.caja-otro-ejercicio {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}

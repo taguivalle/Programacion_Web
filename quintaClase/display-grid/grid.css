@@ -1,0 +1,15 @@
+.contenedor-grid {
+    background-color: antiquewhite;
+    display: grid;
+    /*
+     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 100px);
+    justify-items: flex-end;
+    align-items: center;
+}
+
+.caja {
+    border: 2px solid black;
+    width: 50px;
+}
